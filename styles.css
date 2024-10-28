@@ -1,0 +1,52 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Secțiunea Hero */
+.hero-section {
+    background: linear-gradient(to right, #1c92d2, #f2fcfe);
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+}
+.scroll-button {
+    background: #f2fcfe;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.scroll-button:hover {
+    background: #e6f1f7;
+}
+
+/* Proiectele */
+.project-card {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+.project-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+/* Contact */
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-section input, .contact-section textarea, .contact-section button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
