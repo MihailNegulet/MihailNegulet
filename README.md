@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @MihailNegulet
 - 👀 I’m interested in Web Development
-- 🌱 I’m currently learning HTML, CSS, JavaScript
+- 🌱 I’m currently learning HTML, CSS, JavaScript, React
 - 💞️ I’m looking to collaborate on interesting projects
 - 📫 How to reach me: mihailnegulet@gmail.com
 
