@@ -1,47 +1,60 @@
 <!DOCTYPE html>
-<html lang="ro">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofoliul lui Mihail Negulet</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- Secțiune de prezentare -->
-    <header class="hero-section">
-        <h1>Bun venit, sunt Mihail</h1>
-        <p>Frontend Developer aspirant pasionat de crearea experiențelor interactive pe web.</p>
-        <button class="scroll-button">Descoperă mai multe</button>
-    </header>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mihail Negulet | Frontend Developer</title>
+        <link rel="stylesheet" href="styles.css" />
+        <!-- Legătura către CSS -->
+    </head>
+    <body>
+        <nav>
+            <h1>Mihail Negulet</h1>
+            <button id="toggleDarkMode" aria-label="Toggle Dark Mode">
+                Toggle Dark Mode
+            </button>
+        </nav>
 
-    <!-- Secțiunea despre mine -->
-    <section id="about" class="about-section">
-        <h2>Despre mine</h2>
-        <p>Sunt un dezvoltator front-end pasionat de design modern, performant și prietenos cu utilizatorii.</p>
-    </section>
+        <section class="hero">
+            <h2>Hi, I'm Mihail</h2>
+            <p>
+                Aspiring Frontend Developer passionate about interactive web
+                experiences.
+            </p>
+            <a href="#projects">View My Work</a>
+        </section>
 
-    <!-- Secțiunea Proiecte -->
-    <section id="projects" class="projects-section">
-        <h2>Proiecte</h2>
-        <div class="project-card">
-            <h3>Proiect 1</h3>
-            <p>Descriere scurtă a proiectului</p>
-            <a href="#">Vezi proiectul</a>
-        </div>
-        <!-- Adaugă mai multe carduri de proiecte -->
-    </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>To-Do App</h3>
+                    <p>
+                        A simple and efficient task management application to
+                        keep track of your daily activities.
+                    </p>
+                    <a href="https://github.com/MihailNegulet/To-do-app"
+                        >View Project</a
+                    >
+                </div>
+                <div class="project-card">
+                    <h3>Aim Game</h3>
+                    <p>
+                        A fast-paced accuracy game to test your reflexes and
+                        reaction speed.
+                    </p>
+                    <a href="https://github.com/MihailNegulet/Aim-game"
+                        >View Project</a
+                    >
+                </div>
+            </div>
+        </section>
 
-    <!-- Secțiunea Contact -->
-    <section id="contact" class="contact-section">
-        <h2>Contactează-mă</h2>
-        <form>
-            <input type="text" placeholder="Nume" required>
-            <input type="email" placeholder="Email" required>
-            <textarea placeholder="Mesaj" required></textarea>
-            <button type="submit">Trimite</button>
-        </form>
-    </section>
+        <footer>
+            <p>&copy; 2025 Mihail Negulet - All Rights Reserved</p>
+        </footer>
 
-    <script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+        <!-- Legătura către JavaScript -->
+    </body>
 </html>

@@ -1,4 +1,7 @@
-// Derulează la secțiunea Despre mine
-document.querySelector(".scroll-button").addEventListener("click", () => {
-    document.getElementById("about").scrollIntoView({ behavior: "smooth" });
-});
+// Funcție pentru toggle dark mode
+function toggleDarkMode() {
+    document.documentElement.classList.toggle("dark");
+}
+
+// Adaugă event listener pe buton
+document.getElementById("toggleDarkMode").addEventListener("click", toggleDarkMode);
