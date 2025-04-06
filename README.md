@@ -87,6 +87,14 @@ A simple task management application to organize daily activities.
 
 A fast-paced accuracy game to test reflexes and reaction speed.
 
+### 3. [eDentify - Dental Clinic Website](https://github.com/MihailNegulet/dental-clinical-app)
+
+A fully responsive and modern React website for a dental clinic.
+Built from scratch with React Router, EmailJS, Swiper, and custom context for smooth scrolling.
+🔗 Live Demo:
+https://edentify-app.vercel.app
+
+
 ---
 
 ## 🌟 Why Work With Me?
