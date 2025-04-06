@@ -91,8 +91,7 @@ A fast-paced accuracy game to test reflexes and reaction speed.
 
 A fully responsive and modern React website for a dental clinic.
 Built from scratch with React Router, EmailJS, Swiper, and custom context for smooth scrolling.
-🔗 Live Demo:
-https://edentify-app.vercel.app
+🔗 [Live demo](https://edentify-app.vercel.app)
 
 
 ---
